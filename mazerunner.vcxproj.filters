@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{05861f06-5d17-431b-8c4c-2826ca60f1ef}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClCompile Include="..\..\..\..\SOGANG\2-1\컴실\10주차\waterfall\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="..\..\..\..\SOGANG\2-1\컴실\10주차\waterfall\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="..\..\..\..\SOGANG\2-1\컴실\10주차\waterfall\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+	</ItemGroup>
+</Project>
